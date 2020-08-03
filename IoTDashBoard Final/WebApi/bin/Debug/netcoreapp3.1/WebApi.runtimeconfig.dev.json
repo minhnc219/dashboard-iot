@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vampireking\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vampireking\\.nuget\\packages"
+    ]
+  }
+}

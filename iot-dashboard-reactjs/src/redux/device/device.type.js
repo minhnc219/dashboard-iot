@@ -1,0 +1,9 @@
+const DeviceActionTypes = {
+    GET_LIST_DEVICES: 'GET_LIST_DEVICES',
+    GET_DEVICE: 'GET_DEVICE',
+    CREATE_DEVICE: 'CREATE_DEVICE',
+    EDIT_DEVICE: 'EDIT_DEVICE',
+    REMOVE_DEVICE: 'REMOVE_DEVICE',
+    GET_ALL_ENDPOINTS: 'GET_ALL_ENDPOINTS'
+}
+export default DeviceActionTypes;

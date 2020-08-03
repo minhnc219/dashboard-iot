@@ -1,0 +1,20 @@
+.container-line-chart{
+    width: 650px;
+    height: 450px;
+    .title-line-chart{
+        width: 100%;
+        p{
+            margin: 0px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .line-chart{
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

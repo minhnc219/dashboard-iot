@@ -1,0 +1,174 @@
+#endpoint-page{
+    width: 100%;
+    height: 100vh;
+    #endpoint-page-sidebar-section{
+        min-width: 280px;
+        height: 100%;
+        background-color: #0066FF;
+        position: fixed;
+    }
+    #endpoint-page-body-section{
+        width: 100%;
+        padding-left: 280px;
+        height: 100%;
+        .top-navbar-section{
+            width: 100%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        #endpoint-page-create-section{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            #endpoint-page-introduction-section{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                #introduction-flex-container{
+                    flex: 4;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 17px;
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                #create-flex-container{
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            
+        }
+        #table-endpoint{
+            border: 1px solid #AAAAAA;
+            border-radius: 5px;
+            box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+            width: calc(100% - 2em);
+            margin: 1em auto;
+            #header-table-endpoint{
+                color: white;
+                font-size: 1.5em;
+                padding: 1rem;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: #3366FF;
+            }
+            table{
+                width: 100%;
+                td, th{
+                    padding: 10px;
+                    text-align: left;
+                }
+                th{
+                    background-color: #6699FF;
+                }
+                td{
+                    button{
+                        border: none;
+                        background-color: transparent;
+                        color: black;
+                        margin-right: 5px;
+                        font-size: 16px;
+                        padding-top: 2px;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        padding-bottom: 5px;
+                        &:hover{
+                            background-color: #FF9900;
+                            transition: 0.4s;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        &:nth-child(2n){
+                            background-color: white;
+                        }
+                        &:nth-child(2n+1){
+                            background-color: #EEEEEE;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.modal-dialog{
+    min-width: 750px;
+    .modal-content{
+        .modal-body{
+            .form-group{
+                .form-input-label{
+                    display: block;
+                    text-align: start;
+                    width: 100%;
+                }
+                .form-input{
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+                .form-textarea{
+                    width: 100%;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    resize: none;
+                    
+                }
+                .select-box-container{
+                    position: relative;
+                    width: 100%;
+                    .select-input{
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        border: 1px solid #ccc;
+                        padding: 10px;
+                        position: relative;
+                        border-radius: 5px;
+                    }
+                    .select-input::before {
+                        position: absolute;
+                        content: '';
+                        right: 8px;
+                        top: 18px;
+                        border-top: 5px solid #252525;
+                        border-right: 5px solid transparent;
+                        border-left: 5px solid transparent;
+                      }
+                    .select-title {
+                        color: #252525;
+                    }
+                    .placeholder {
+                        color: #ccc;
+                    }
+                    .select-list{
+                        border: 1px solid #ccc;
+                        border-top: none;
+                    }
+                    .select-item {
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        padding: 10px;
+                    }
+                    .select-item:hover {
+                        background: #eee;
+                    }
+                
+                }
+            }
+        }
+        
+    }
+}

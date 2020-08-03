@@ -1,0 +1,15 @@
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\Model.dll
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Exercise\IoTDashBoard Final\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.genruntimeconfig.cache
